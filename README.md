@@ -25,3 +25,11 @@ Kita semua sering mengabadikan momen berharga bersama teman dan keluarga, hanya 
   - Notifikasi "On This Day" untuk momen spesifik
   - Berbagi otomatis kenangan lewat email
   - Fitur nostalgia kenangan
+
+## Arsitektur Teknis
+  ### Backend Stack
+  ```
+  Laravel 12 (PHP Framework)
+  MySQL (Database)
+  Redis (Cache & Queue)
+  Cludinary (Penyimpanan Media) ```
