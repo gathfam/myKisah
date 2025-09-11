@@ -32,4 +32,17 @@ Kita semua sering mengabadikan momen berharga bersama teman dan keluarga, hanya 
   Laravel 12 (PHP Framework)
   MySQL (Database)
   Redis (Cache & Queue)
-  Cludinary (Penyimpanan Media) ```
+  Cludinary (Penyimpanan Media)
+  ``` 
+  ### Frontend Stack
+  ```
+  Tailwind CSS
+  Blade Templating
+  ```
+  ### Package Tambahan
+  ```
+  Intervention Image (Image Processing)
+  Spatie Media Library (Media Management)
+  ```
+
+
