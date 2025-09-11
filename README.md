@@ -1,4 +1,4 @@
-## Background
+## Latar Belakang
 Kita semua sering mengabadikan momen berharga bersama teman dan keluarga, hanya untuk akhirnya foto-foto tersebut tertimbun di galeri ponsel atau Google Drive. Saat ingin bernostalgia, kita kesulitan menemukan foto yang dicari karena berantakan dan tidak terorganisir. MyKisah hadir untuk mengubah cara kita menyimpan dan merasakan kembali kenangan.
 
 ## Fitur (MVP)
