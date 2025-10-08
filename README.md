@@ -45,5 +45,5 @@ Kita semua sering mengabadikan momen berharga bersama teman dan keluarga, hanya 
   Intervention Image (Image Processing)
   Spatie Media Library (Media Management)
   ```
-  ![image](Assets/MyKisah_Architecture_Diagram.png)
+  ![image](Assets/Architecture_Diagram.png)
 
