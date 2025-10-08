@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="oLH9wx6r51wDPVdEXgeB">
+    <mxGraphModel dx="1204" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NidDwQ-2pAzj67koUq93-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NidDwQ-2pAzj67koUq93-13" target="NidDwQ-2pAzj67koUq93-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268" y="403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-13" value="" style="shape=actor;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="158" y="273" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-14" value="Client&lt;div&gt;Browser/Mobile Web&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="108" y="218" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-24" value="Frontend Layer (SPA)" style="swimlane;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="298" y="243" width="200" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NidDwQ-2pAzj67koUq93-24" source="NidDwQ-2pAzj67koUq93-23" target="NidDwQ-2pAzj67koUq93-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="ReactJS" treeRoot="1" id="NidDwQ-2pAzj67koUq93-23">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-24">
+            <mxGeometry x="15" y="40" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="InertiaJS" treeRoot="1" id="NidDwQ-2pAzj67koUq93-22">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-24">
+            <mxGeometry x="15" y="105" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="TailwindCSS" treeRoot="1" id="NidDwQ-2pAzj67koUq93-21">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-24">
+            <mxGeometry x="15" y="175" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NidDwQ-2pAzj67koUq93-39" value="Service Layer" style="swimlane;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="978" y="243" width="220" height="290" as="geometry" />
+        </mxCell>
+        <UserObject label="Intervention Image&lt;div&gt;&lt;i&gt;Image Processing&lt;/i&gt;&lt;/div&gt;" treeRoot="1" id="NidDwQ-2pAzj67koUq93-46">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-39">
+            <mxGeometry x="15" y="40" width="185" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Spatie Image&lt;div&gt;&lt;i&gt;Media Management&lt;/i&gt;&lt;/div&gt;" treeRoot="1" id="NidDwQ-2pAzj67koUq93-48">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-39">
+            <mxGeometry x="15" y="230" width="180" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Auth Service" treeRoot="1" id="NidDwQ-2pAzj67koUq93-50">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-39">
+            <mxGeometry x="15" y="103" width="185" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Notification Service" treeRoot="1" id="NidDwQ-2pAzj67koUq93-49">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-39">
+            <mxGeometry x="15" y="167" width="185" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NidDwQ-2pAzj67koUq93-51" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.559;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NidDwQ-2pAzj67koUq93-39" source="NidDwQ-2pAzj67koUq93-50" target="NidDwQ-2pAzj67koUq93-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-60" value="Data Layer" style="swimlane;startSize=23;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="538" y="508" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NidDwQ-2pAzj67koUq93-60" source="NidDwQ-2pAzj67koUq93-61" target="NidDwQ-2pAzj67koUq93-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="130" />
+              <mxPoint x="285" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NidDwQ-2pAzj67koUq93-60" source="NidDwQ-2pAzj67koUq93-61" target="NidDwQ-2pAzj67koUq93-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="130" />
+              <mxPoint x="105" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-61" value="MySQL Database" style="shape=datastore;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-60">
+          <mxGeometry x="150" y="50" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-63" value="Redis Cache" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-60">
+          <mxGeometry x="20" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-64" value="Redis Queue" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-60">
+          <mxGeometry x="200" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-70" value="External Services" style="swimlane;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="243" width="210" height="160" as="geometry" />
+        </mxCell>
+        <UserObject label="Email Services&lt;br&gt;Memory Reminder Notifications" treeRoot="1" id="NidDwQ-2pAzj67koUq93-71">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-70">
+            <mxGeometry x="15.629999999999999" y="40" width="178.75" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cloudinary&lt;div&gt;Media Storage&lt;/div&gt;" treeRoot="1" id="NidDwQ-2pAzj67koUq93-72">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-70">
+            <mxGeometry x="15.63000000000011" y="100" width="178.75" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NidDwQ-2pAzj67koUq93-73" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;labelBackgroundColor=none;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NidDwQ-2pAzj67koUq93-48" target="NidDwQ-2pAzj67koUq93-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1216" y="493" as="sourcePoint" />
+            <mxPoint x="1301.63" y="303" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1271" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-74" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classicThin;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1179" y="429.9999999999999" as="sourcePoint" />
+            <mxPoint x="1296.63" y="303" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1238" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-75" value="Backend Layer (Laravel 12)" style="swimlane;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="538" y="243" width="390" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-76" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;labelBackgroundColor=none;fontColor=default;elbow=vertical;" edge="1" parent="NidDwQ-2pAzj67koUq93-75" source="NidDwQ-2pAzj67koUq93-77" target="NidDwQ-2pAzj67koUq93-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="API Route" treeRoot="1" id="NidDwQ-2pAzj67koUq93-77">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-75">
+            <mxGeometry x="15" y="40" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NidDwQ-2pAzj67koUq93-78" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NidDwQ-2pAzj67koUq93-75" source="NidDwQ-2pAzj67koUq93-79" target="NidDwQ-2pAzj67koUq93-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Middleware" treeRoot="1" id="NidDwQ-2pAzj67koUq93-79">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-75">
+            <mxGeometry x="15" y="110" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NidDwQ-2pAzj67koUq93-84" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classicThin;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NidDwQ-2pAzj67koUq93-75" source="NidDwQ-2pAzj67koUq93-80" target="NidDwQ-2pAzj67koUq93-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Controller" treeRoot="1" id="NidDwQ-2pAzj67koUq93-80">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-75">
+            <mxGeometry x="210" y="175" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Models" treeRoot="1" id="NidDwQ-2pAzj67koUq93-83">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-75">
+            <mxGeometry x="15" y="175" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NidDwQ-2pAzj67koUq93-97" value="Validation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NidDwQ-2pAzj67koUq93-75">
+          <mxGeometry x="102" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-85" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classicThin;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NidDwQ-2pAzj67koUq93-22" target="NidDwQ-2pAzj67koUq93-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-88" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NidDwQ-2pAzj67koUq93-83" target="NidDwQ-2pAzj67koUq93-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="498" y="608" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="518" y="508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-93" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NidDwQ-2pAzj67koUq93-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1176" y="366" as="sourcePoint" />
+            <mxPoint x="776" y="593" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1256" y="498" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-94" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NidDwQ-2pAzj67koUq93-49" target="NidDwQ-2pAzj67koUq93-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1238" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-98" value="Store Media via API Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="435" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NidDwQ-2pAzj67koUq93-99" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="NidDwQ-2pAzj67koUq93-80" target="NidDwQ-2pAzj67koUq93-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
