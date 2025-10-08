@@ -37,7 +37,8 @@ Kita semua sering mengabadikan momen berharga bersama teman dan keluarga, hanya 
   ### Frontend Stack
   ```
   Tailwind CSS
-  Blade Templating
+  InertiaJS
+  ReactJS
   ```
   ### Package Tambahan
   ```
