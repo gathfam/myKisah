@@ -90,4 +90,4 @@ c. Relasi antara Album dan Memories (One-to-Many)
    -Kardinalitasnya adalah 1 album : banyak memories.
 
 3. Diagram
-   ![ERD](./gambar/ERD.png)
+   ![ERD](./Assets/ERD.png)
